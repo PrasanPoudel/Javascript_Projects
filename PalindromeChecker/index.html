@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Palindrome Checker</title>
+</head>
+<body>
+    <main>
+<div class="content_box">
+        <h1>Palindrome Checker</h1>
+        <label for="text_input">
+            <input type="text" id="text_input" required/>
+            <button id="check_btn" onclick="checkPalindrome()">Check</button>
+        </label>
+        <fieldset>
+            <div>
+                <h1 style="padding: 5px 0 0 10px;">Is it a palindrome?</h1>
+            <div id="result"></div>
+            </div>
+        </fieldset>
+        <button id="reset_btn" onclick="reset()">Reset</button>
+        <div class="about_palindrome">
+            &#128161; A palindrome is a word, phrase, number, or other sequences of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization). Example includes "radar" and "level".
+        </div>
+</div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
